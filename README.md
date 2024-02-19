@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @Itachi_8000
+- 👋 Hi, I’m ashish chauhan
 - 👀 I’m interested in ... coding
 - 🌱 I’m currently learning ... c++ and DS Algo
 - 💞️ I’m looking to collaborate on ... 
