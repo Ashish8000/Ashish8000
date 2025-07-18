@@ -18,6 +18,7 @@
             font-family: "Noto Sans", sans-serif;
             font-weight: 300;
             margin: 100px;
+            display: flex;
         }
 
         main {
@@ -32,6 +33,7 @@
             position: relative;
             border: 0.5px solid gray;
             padding: 0 0 40px 0;
+            margin: 5px;
         }
 
         .image img {
@@ -61,16 +63,21 @@
             left: 57px;
             padding: 7px 20px;
         }
-        .content{
-            padding: 10px ;
+
+        .content {
+            padding: 10px;
         }
+
         .content p {
             color: gray;
         }
-        .button{
+
+        .button {
             text-align: center;
         }
-        button{
+
+        button {
+
             border-radius: 20px;
             border: none;
             padding: 9px 20px;
@@ -78,7 +85,11 @@
             color: rgb(0, 102, 255);
             background-color: #0062ff3e;
             margin-top: 4px;
-            
+            font-weight: 500;
+        }
+        button:hover{
+            background-color: #0062ff6e;
+            box-shadow: ;
         }
     </style>
 </head>
@@ -116,6 +127,63 @@
         </main>
         <footer class="button">
             <button>Read More</button>
+        </footer>
+    </div>
+    <div class="Card">
+        <header class="image">
+            <img src="Naruto_Part_II.png" alt="Itachi Uchiha">
+        </header>
+        <main>
+            <!-- <ul>
+                <li>Personality</li>
+                <li>Appearance</li>
+                <li>Abilities</li>
+                <li>Chakra and Physical Prowess</li>
+            </ul> -->
+            <div class="capsules">
+                <span>Personality</span>
+                <span>Appearance</span>
+            </div>
+            <div class="content">
+                <h2>Naruto Uzumaki</h2>
+                <p>
+                    Naruto Uzumaki (うずまきナルト, Uzumaki Naruto) is a shinobi of Konohagakure's Uzumaki clan and a
+                    reincarnation of Asura Ōtsutsuki. He became the jinchūriki of the Nine-Tails on the day of his birth
+                    — a fate that caused him to be shunned by most of Konoha throughout his childhood.
+                </p>
+            </div>
+        </main>
+        <footer class="button">
+            <button>Read More</button>
+        </footer>
+    </div>
+    <div class="Card">
+        <header class="image">
+            <img src="Kakashi_Hatake.png" alt="Itachi Uchiha">
+        </header>
+        <main>
+            <!-- <ul>
+                <li>Personality</li>
+                <li>Appearance</li>
+                <li>Abilities</li>
+                <li>Chakra and Physical Prowess</li>
+            </ul> -->
+            <div class="capsules">
+                <span>Personality</span>
+                <span>Appearance</span>
+            </div>
+            <div class="content">
+                <h2>Kakashi Hatake</h2>
+                <p>
+                    Kakashi Hatake (はたけカカシ, Hatake Kakashi) is a shinobi of Konohagakure's Hatake clan. Famed as Kakashi
+                    of the Sharingan (写輪眼のカカシ, Sharingan no Kakashi) and the Copy Ninja (コピー忍者, Kopī Ninja), he is one
+                    of Konoha's most talented ninja, regularly looked to for advice and leadership despite his personal
+                    dislike of responsibility.
+                </p>
+            </div>
+        </main>
+        <footer class="button">
+            <button><a href="https://naruto.fandom.com/wiki/Kakashi_Hatake#New_Era"></a>Read More</button>
         </footer>
     </div>
 </body>
