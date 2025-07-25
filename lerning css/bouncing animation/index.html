@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .content{
+            position: relative;
+            background-color: aqua;
+            height: 50vh;
+            width: 100vw;
+        }
+        .ball{
+            position: absolute;
+            background-color: rgb(208, 83, 83);
+            height: 60px;
+            width: 60px;
+            bottom: 0;
+            border-radius: 30px;
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            animation:x-movement 8s linear infinite,y-movement 1s ease-out infinite alternate;
+
+        }
+        @keyframes x-movement {
+            from{
+                left: 0;
+            }
+            to{
+                /* transform: translateX(200px); */
+                left: 100%;
+            }
+            
+        }
+        @keyframes y-movement {
+            from{
+                bottom: 0;
+            }
+            to{
+                bottom: 20vh;
+            }
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <div class="ball"></div>
+    </div>
+</body>
+</html>
