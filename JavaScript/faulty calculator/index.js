@@ -2,15 +2,19 @@
 // This calculator has a 10% chance of returning incorrect results.
 // It randomly decides whether to use the faulty calculation or the correct one.
 // The faulty calculator has the following errors:
+
 // 1. Addition returns subtraction.
 // 2. Subtraction returns division.
 // 3. Multiplication returns addition.
 // 4. Division returns exponentiation.
+
+
 // The correct calculator works as expected.
 // The user is prompted to enter two numbers and an operator.
 // The result is displayed in the console and an alert.
 // The user can test the faulty calculator by running this code multiple times. 
 // The code is written in JavaScript.
+
 console.log("Welcome to the Faulty Calculator!");
 
 let prob = Math.random();
