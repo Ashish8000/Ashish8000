@@ -1,28 +1,115 @@
-Act as an Expert GitHub Profile Designer and Senior AI/ML Engineer. I need you to generate a highly advanced, interactive GitHub Profile README.md for me. 
+<div align="center">
+  <h1>Hi, I'm Ashish Chauhan 👋</h1>
+  <h3>Aspiring AI/ML Engineer | Computer Science Student | Tech Enthusiast</h3>
+  <p>📍 Alwar, Rajasthan, India</p>
+</div>
 
-My name is Ashish Chauhan. I am a Computer Science Student, an Aspiring AI/ML Engineer, and a Tech Enthusiast based in Alwar, Rajasthan, India.
+---
 
-Please generate the README.md using the exact structure and stylistic elements below:
+### 🧠 Philosophy & Stack (Python OOP Representation)
 
-1. Header: A clean, centered header with my name, title, and location.
+```python
+class DeepLearningEngineer:
+    def __init__(self):
+        self.name = "Ashish Chauhan"
+        self.passion = "AI/ML & Microservices"
+        self.foundational_skills = ["C++", "Python", "DSA"]
+        self.specialties = ["Gradient Boosting", "RFM Segmentation", "FastAPI"]
 
-2. Python Code Block Philosophy: Create a markdown Python code block defining a class called `DeepLearningEngineer`. Initialize it with my name, passion ("AI/ML & Microservices"), foundational skills (C++, Python, DSA), and specialties (Gradient Boosting, RFM Segmentation, FastAPI). Include an `objective()` method returning my goal to transform complex datasets into intelligent microservices, and print the output.
+    def objective(self):
+        return "Transform complex datasets into intelligent microservices."
 
-3. Animated HTML/CSS Banner: Below the Python block, write an inline HTML <style> block. Create two CSS animations: a `@keyframes gradient-animation` for a background, and a `@keyframes pulse-glow` for a subtle glowing effect. Apply this to a `<div>` banner with the title "⚡ Core Competencies ⚡" and a subtitle mapping out my continuous learning loop: "Data Extraction ➔ Feature Engineering ➔ Model Optimization ➔ API Deployment".
+# Instantiation and Execution
+engineer = DeepLearningEngineer()
+print(f"Developer:           {engineer.name}")
+print(f"Core Passion:        {engineer.passion}")
+print(f"Foundational Skills: {', '.join(engineer.foundational_skills)}")
+print(f"Specialties:         {', '.join(engineer.specialties)}")
+print(f"Core Objective:      {engineer.objective()}")
+```
 
-4. Skills Table: Create a clean 3-column markdown table categorizing my skills:
-   - Languages: Python, C++, JavaScript, HTML5/CSS3
-   - Data Science & ML: Scikit-learn (Gradient Boosting), Pandas & NumPy, Matplotlib & Seaborn, EDA
-   - Backend Microservices: FastAPI, Pydantic, Uvicorn & Pytest, Reproducible ML Retraining
+---
 
-5. Expandable Projects Section: Use HTML `<details open>` and `<summary>` tags to list my 4 capstone projects so they can be expanded/collapsed. For each project, include the title in bold, a bulleted list for the tech stack, 2 bullet points describing the work, and a link to the repository:
-   - Project 1: D2C Customer Churn Analysis (Repo: https://github.com/Ashish8000/Capstone-Project-Part-1-EDA-.git). 7 data tables, ~10K records, 6 visualizations, 5 retention hypotheses. Stack: Python, Pandas, NumPy, Matplotlib, Seaborn, Jupyter.
-   - Project 2: RFM Customer Segmentation & Retention Strategy (Repo: https://github.com/Ashish8000/Cpstone-Project-Part-2-RFM-Segmentation-Retention-Strategy.git). 2,400 D2C customers, 7 operational segments, driving ₹1.17M revenue plan. Stack: Python, Pandas, NumPy, Jupyter.
-   - Project 3: D2C Churn Prediction Model (Repo: https://github.com/Ashish8000/Capstone-Project-Part-3-Churn-Prediction-Model-Model-Card.git). Gradient Boosting classifier, 20+ features, 0.19 threshold. Stack: Python, Scikit-learn, Pandas, Jupyter.
-   - Project 4: Churn Scoring API & Microservice (Repo: https://github.com/Ashish8000/Capstone-Project-Part-4-FastAPI-Churn-Scoring-Service-Reproducible-ML-Workflow.git). Production microservice, Swagger docs, automated retraining. Stack: FastAPI, Python, Scikit-learn, Pydantic, Uvicorn, Pytest.
+<style>
+  @keyframes gradient-animation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  @keyframes pulse-glow {
+    0%, 100% { box-shadow: 0 0 10px rgba(138, 43, 226, 0.3), 0 0 20px rgba(0, 191, 255, 0.1); }
+    50% { box-shadow: 0 0 20px rgba(138, 43, 226, 0.6), 0 0 30px rgba(0, 191, 255, 0.3); }
+  }
+  .banner-container {
+    background: linear-gradient(-45deg, #1e1b4b, #311042, #0f172a, #111827);
+    background-size: 400% 400%;
+    animation: gradient-animation 15s ease infinite, pulse-glow 3s ease-in-out infinite;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 25px 0;
+  }
+  .banner-title {
+    color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .banner-subtitle {
+    color: #cbd5e1;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+  }
+</style>
 
-6. Education: Include my B.E. in Information Technology from MBM University, AI/ML Specialization from IIT Patna, C++ & DSA from Coding Ninjas, and Senior Secondary (CBSE 2020).
+<div class="banner-container">
+  <div class="banner-title">⚡ Core Competencies ⚡</div>
+  <div class="banner-subtitle">Data Extraction ➔ Feature Engineering ➔ Model Optimization ➔ API Deployment</div>
+</div>
 
-7. Footer & Stats: Include my email (ashishchauhan.ac800@gmail.com) and GitHub link (@Ashish8000). Finally, embed a dynamically updating GitHub stats card using the URL: https://github-readme-stats.vercel.app/api?username=Ashish8000&show_icons=true&theme=tokyonight inside a centered div.
+---
 
-Output ONLY the raw markdown code inside a single markdown block so I can easily copy it.
+### 🛠️ Technical Skills
+
+| 💻 Languages | 🤖 Data Science & ML | ⚙️ Backend Microservices |
+| :--- | :--- | :--- |
+| • Python<br>• C++<br>• JavaScript<br>• HTML5 / CSS3 | • Scikit-learn (Gradient Boosting)<br>• Pandas & NumPy<br>• Matplotlib & Seaborn<br>• Exploratory Data Analysis (EDA) | • FastAPI & Pydantic<br>• Uvicorn & Pytest<br>• Reproducible ML Retraining |
+
+---
+
+### 🎓 Education & Credentials
+
+* 🎓 **B.E. in Information Technology** — MBM University
+* 🔬 **AI/ML Specialization** — IIT Patna
+* 💻 **C++ & Data Structures & Algorithms (DSA)** — Coding Ninjas
+* 🏫 **Senior Secondary Education (CBSE)** — Class of 2020
+
+---
+
+<div align="center">
+  <h2>📊 GitHub Analytics & Stats</h2>
+  
+  <br>
+  
+  <img src="https://github-readme-stats.vercel.app/api?username=Ashish8000&show_icons=true&theme=tokyonight" alt="Ashish's GitHub Stats" />
+  
+  <br><br>
+  
+  <h3>📬 Let's Connect!</h3>
+  
+  <p>
+    <a href="mailto:ashishchauhan.ac800@gmail.com">
+      <img src="https://img.shields.io/badge/Email-ashishchauhan.ac800%40gmail.com-blue?style=for-the-badge&logo=gmail&logoColor=white&color=D14836" alt="Gmail Contact" />
+    </a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/Ashish8000">
+      <img src="https://img.shields.io/badge/GitHub-@Ashish8000-blue?style=for-the-badge&logo=github&logoColor=white&color=181717" alt="GitHub Profile" />
+    </a>
+  </p>
+</div>
