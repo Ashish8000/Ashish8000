@@ -1,10 +1,26 @@
-- 👋 Hi, I’m ashish chauhan
-- 👀 I’m interested in ... coding
-- 🌱 I’m currently learning ... c++ and DS Algo
-- 💞️ I’m looking to collaborate on ... 
-- 📫 How to reach me ... by my email :) "ashishchauhan.ac800@gmail.com" i usally check my inbox in my free time.
+# 💫 About Me
 
-<!---
-Ashish8000/Ashish8000 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+<div align="center">
+  <h1>👋 Hi, I'm Ashish Chauhan</h1>
+  <p><strong>Computer Science Student | Aspiring AI/ML Engineer | Tech Enthusiast</strong></p>
+  <p>📍 Alwar, Rajasthan, India</p>
+</div>
+
+---
+
+### 🚀 Technical Overview & Philosophy
+
+```python
+class DeepLearningEngineer:
+    def __init__(self, name, passion):
+        self.name = name
+        self.passion = passion
+        self.foundations = ["C++", "Python", "Data Structures & Algorithms"]
+        self.specialties = ["Gradient Boosting", "RFM Segmentation", "FastAPI"]
+
+    def objective(self):
+        return "Transforming complex, raw datasets into intelligent, production-grade microservices."
+
+# Initializing profile...
+me = DeepLearningEngineer(name="Ashish Chauhan", passion="AI/ML & Microservices")
+print(me.objective())
