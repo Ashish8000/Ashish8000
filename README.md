@@ -4,76 +4,6 @@
   <p>📍 Alwar, Rajasthan, India</p>
 </div>
 
----
-
-### 🧠 Philosophy & Stack (Python OOP Representation)
-
-```python
-class DeepLearningEngineer:
-    def __init__(self):
-        self.name = "Ashish Chauhan"
-        self.passion = "AI/ML & Microservices"
-        self.foundational_skills = ["C++", "Python", "DSA"]
-        self.specialties = ["Gradient Boosting", "RFM Segmentation", "FastAPI"]
-
-    def objective(self):
-        return "Transform complex datasets into intelligent microservices."
-
-# Instantiation and Execution
-engineer = DeepLearningEngineer()
-print(f"Developer:           {engineer.name}")
-print(f"Core Passion:        {engineer.passion}")
-print(f"Foundational Skills: {', '.join(engineer.foundational_skills)}")
-print(f"Specialties:         {', '.join(engineer.specialties)}")
-print(f"Core Objective:      {engineer.objective()}")
-```
-
----
-
-<style>
-  @keyframes gradient-animation {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-  }
-  @keyframes pulse-glow {
-    0%, 100% { box-shadow: 0 0 10px rgba(138, 43, 226, 0.3), 0 0 20px rgba(0, 191, 255, 0.1); }
-    50% { box-shadow: 0 0 20px rgba(138, 43, 226, 0.6), 0 0 30px rgba(0, 191, 255, 0.3); }
-  }
-  .banner-container {
-    background: linear-gradient(-45deg, #1e1b4b, #311042, #0f172a, #111827);
-    background-size: 400% 400%;
-    animation: gradient-animation 15s ease infinite, pulse-glow 3s ease-in-out infinite;
-    padding: 30px;
-    border-radius: 12px;
-    text-align: center;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    margin: 25px 0;
-  }
-  .banner-title {
-    color: #ffffff;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-    font-size: 24px;
-    font-weight: 700;
-    margin: 0 0 10px 0;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-  }
-  .banner-subtitle {
-    color: #cbd5e1;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    margin: 0;
-  }
-</style>
-
-<div class="banner-container">
-  <div class="banner-title">⚡ Core Competencies ⚡</div>
-  <div class="banner-subtitle">Data Extraction ➔ Feature Engineering ➔ Model Optimization ➔ API Deployment</div>
-</div>
-
----
 
 ### 🛠️ Technical Skills
 
@@ -92,14 +22,6 @@ print(f"Core Objective:      {engineer.objective()}")
 
 ---
 
-<div align="center">
-  <h2>📊 GitHub Analytics & Stats</h2>
-  
-  <br>
-  
-  <img src="https://github-readme-stats.vercel.app/api?username=Ashish8000&show_icons=true&theme=tokyonight" alt="Ashish's GitHub Stats" />
-  
-  <br><br>
   
   <h3>📬 Let's Connect!</h3>
   
