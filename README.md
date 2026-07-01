@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Hi, I'm Ashish Chauhan 👋</h1>
+  <h1>Hi, I'm Ashish Chauhan</h1>
   <h3>Aspiring AI/ML Engineer | Computer Science Student | Tech Enthusiast</h3>
   <p>📍 Alwar, Rajasthan, India</p>
 </div>
