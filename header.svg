@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="80" viewBox="0 0 600 80" fill="none">
+  <text x="10" y="50" font-family="-apple-system, BlinkMacSystemFont, 'Outfit', 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800" fill="#ffffff">
+    Hi, I'm <tspan fill="#06b6d4">
+      <animate 
+        attributeName="textContent" 
+        values=" ;A;As;Ash;Ashi;Ashis;Ashish;Ashish ;Ashish C;Ashish Ch;Ashish Cha;Ashish Chau;Ashish Chauh;Ashish Chauha;Ashish Chauhan;Ashish Chauhan;Ashish Chauhan;Ashish Chauhan;Ashish Chauhan;Ashish Chauhan;Ashish Chauhan;Ashish Chauhan;Ashish Chauhan;Ashish Chauhan;Ashish Chauhan;Ashish Chauhan;Ashish Chauhan;Ashish Chauhan;Ashish Chauhan;Ashish Chauha;Ashish Chauh;Ashish Chau;Ashish Cha;Ashish Ch;Ashish C;Ashish ;Ashish;Ashis;Ashi;Ash;As;A; ; ;T;Te;Tec;Tech;Tech ;Tech S;Tech St;Tech Stu;Tech Stud;Tech Stude;Tech Studen;Tech Student;Tech Student;Tech Student;Tech Student;Tech Student;Tech Student;Tech Student;Tech Student;Tech Student;Tech Student;Tech Student;Tech Student;Tech Student;Tech Student;Tech Student;Tech Studen;Tech Stude;Tech Stud;Tech Stu;Tech St;Tech ;Tech;Tec;Te;T; "
+        dur="9s" 
+        repeatCount="indefinite" />
+    </tspan>
+    <tspan fill="#06b6d4" font-weight="300">
+      |
+      <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite" />
+    </tspan>
+  </text>
+</svg>
