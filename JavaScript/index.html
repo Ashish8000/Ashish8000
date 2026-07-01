@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ashish Chauhan | AI/ML & Microservices Engineer Portfolio</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Portfolio of Ashish Chauhan, an Aspiring AI/ML Engineer and Computer Science Student specialized in Gradient Boosting, RFM Segmentation, FastAPI, and C++/Python DSA.">
+  <meta name="keywords" content="Ashish Chauhan, AI, ML, Machine Learning, Data Science, FastAPI, Python, C++, DSA, Developer Portfolio">
+  <meta name="author" content="Ashish Chauhan">
+  
+  <!-- Styling -->
+  <link rel="stylesheet" href="index.css">
+  
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="logo">AC.DEV</a>
+      <ul class="nav-links">
+        <li><a href="#hero" class="nav-link active">Home</a></li>
+        <li><a href="#competencies" class="nav-link">Competencies</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#contact" class="nav-link">Connect</a></li>
+      </ul>
+      <button class="mobile-nav-toggle" id="mobile-toggle" aria-label="Toggle navigation menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="section" id="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1>Hi, I'm <span id="typed-text"></span><span class="typing-cursor">|</span></h1>
+        <h2>Aspiring AI/ML & Microservices Engineer</h2>
+        <div class="cta-group">
+          <a href="#contact" class="btn btn-primary">Let's Connect</a>
+          <a href="#projects" class="btn btn-secondary">View My Work</a>
+        </div>
+      </div>
+      
+      <!-- Interactive Python Terminal Component -->
+      <div class="terminal-card">
+        <div class="terminal-header">
+          <div class="terminal-dots">
+            <span class="dot dot-red"></span>
+            <span class="dot dot-yellow"></span>
+            <span class="dot dot-green"></span>
+          </div>
+          <span class="terminal-title">deep_learning_engineer.py</span>
+          <button class="btn-run" id="btn-run-code">
+            <i class="fa-solid fa-play"></i> Run Code
+          </button>
+        </div>
+        <div class="terminal-body">
+          <div class="code-editor" id="editor-code"><span class="syntax-keyword">class</span> <span class="syntax-class">DeepLearningEngineer</span>:
+    <span class="syntax-keyword">def</span> <span class="syntax-variable">__init__</span>(<span class="syntax-variable">self</span>):
+        <span class="syntax-variable">self</span>.name = <span class="syntax-string">"Ashish Chauhan"</span>
+        <span class="syntax-variable">self</span>.passion = <span class="syntax-string">"AI/ML & Microservices"</span>
+        <span class="syntax-variable">self</span>.foundational_skills = [<span class="syntax-string">"C++"</span>, <span class="syntax-string">"Python"</span>, <span class="syntax-string">"DSA"</span>]
+        <span class="syntax-variable">self</span>.specialties = [<span class="syntax-string">"Gradient Boosting"</span>, <span class="syntax-string">"RFM Segmentation"</span>, <span class="syntax-string">"FastAPI"</span>]
+
+    <span class="syntax-keyword">def</span> <span class="syntax-variable">objective</span>(<span class="syntax-variable">self</span>):
+        <span class="syntax-keyword">return</span> <span class="syntax-string">"Transform complex datasets into intelligent microservices."</span></div>
+          
+          <div class="terminal-console">
+            <span class="syntax-comment"># Click "Run Code" above to execute...</span>
+            <div class="console-output" id="console-output"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Animated HTML/CSS Banner (Competencies Block) -->
+  <section id="competencies" class="container scroll-animate">
+    <div class="banner-container">
+      <div class="banner-title">⚡ Core Competencies ⚡</div>
+      <div class="banner-subtitle">Data Extraction ➔ Feature Engineering ➔ Model Optimization ➔ API Deployment</div>
+    </div>
+  </section>
+
+  <!-- Interactive Skills Section -->
+  <section class="section scroll-animate" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Skills & Technologies</h2>
+        <p class="section-subtitle">Structured expertise in languages, data science, machine learning models, and microservice infrastructure.</p>
+      </div>
+      
+      <div class="skills-grid">
+        <!-- Languages Card -->
+        <div class="skills-card">
+          <div class="skills-card-header">
+            <div class="skills-card-icon"><i class="fa-solid fa-code"></i></div>
+            <h3 class="skills-card-title">Languages</h3>
+          </div>
+          <div class="skills-list">
+            <div class="skill-item">
+              <div class="skill-info"><span class="skill-name">Python</span><span class="skill-percentage">90%</span></div>
+              <div class="skill-bar-bg"><div class="skill-bar-fill" data-percentage="90%"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span class="skill-name">C++</span><span class="skill-percentage">85%</span></div>
+              <div class="skill-bar-bg"><div class="skill-bar-fill" data-percentage="85%"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span class="skill-name">JavaScript</span><span class="skill-percentage">75%</span></div>
+              <div class="skill-bar-bg"><div class="skill-bar-fill" data-percentage="75%"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span class="skill-name">HTML5 / CSS3</span><span class="skill-percentage">80%</span></div>
+              <div class="skill-bar-bg"><div class="skill-bar-fill" data-percentage="80%"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Data Science & ML Card -->
+        <div class="skills-card">
+          <div class="skills-card-header">
+            <div class="skills-card-icon"><i class="fa-solid fa-brain"></i></div>
+            <h3 class="skills-card-title">Data Science & ML</h3>
+          </div>
+          <div class="skills-list">
+            <div class="skill-item">
+              <div class="skill-info"><span class="skill-name">Scikit-learn (Gradient Boosting)</span><span class="skill-percentage">85%</span></div>
+              <div class="skill-bar-bg"><div class="skill-bar-fill" data-percentage="85%"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span class="skill-name">Pandas & NumPy</span><span class="skill-percentage">90%</span></div>
+              <div class="skill-bar-bg"><div class="skill-bar-fill" data-percentage="90%"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span class="skill-name">Matplotlib & Seaborn</span><span class="skill-percentage">80%</span></div>
+              <div class="skill-bar-bg"><div class="skill-bar-fill" data-percentage="80%"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span class="skill-name">EDA & Feature Engineering</span><span class="skill-percentage">85%</span></div>
+              <div class="skill-bar-bg"><div class="skill-bar-fill" data-percentage="85%"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Backend & Microservices Card -->
+        <div class="skills-card">
+          <div class="skills-card-header">
+            <div class="skills-card-icon"><i class="fa-solid fa-server"></i></div>
+            <h3 class="skills-card-title">Backend Microservices</h3>
+          </div>
+          <div class="skills-list">
+            <div class="skill-item">
+              <div class="skill-info"><span class="skill-name">FastAPI & Pydantic</span><span class="skill-percentage">90%</span></div>
+              <div class="skill-bar-bg"><div class="skill-bar-fill" data-percentage="90%"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span class="skill-name">Uvicorn & Pytest</span><span class="skill-percentage">80%</span></div>
+              <div class="skill-bar-bg"><div class="skill-bar-fill" data-percentage="80%"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span class="skill-name">Reproducible ML Retraining</span><span class="skill-percentage">85%</span></div>
+              <div class="skill-bar-bg"><div class="skill-bar-fill" data-percentage="85%"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Showcase Section -->
+  <section class="section scroll-animate" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Projects Showcase</h2>
+        <p class="section-subtitle">Real-world systems applying algorithms, machine learning modeling, and robust FastAPI backends.</p>
+      </div>
+      
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card">
+          <div class="project-image-placeholder">
+            <i class="fa-solid fa-chart-line"></i>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Credit Risk Management API</h3>
+            <p class="project-desc">A microservice built with FastAPI deploying gradient boosting algorithms to evaluate loan applicant risk profiles in real-time.</p>
+            <div class="project-tags">
+              <span class="project-tag">FastAPI</span>
+              <span class="project-tag">Scikit-learn</span>
+              <span class="project-tag">Pydantic</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <div class="project-image-placeholder">
+            <i class="fa-solid fa-users-gear"></i>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">RFM Customer Segmentation</h3>
+            <p class="project-desc">Unsupervised learning pipelines performing Recency, Frequency, and Monetary analysis to categorize customer behavior patterns.</p>
+            <div class="project-tags">
+              <span class="project-tag">Pandas</span>
+              <span class="project-tag">NumPy</span>
+              <span class="project-tag">Matplotlib</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+          <div class="project-image-placeholder">
+            <i class="fa-solid fa-arrows-spin"></i>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Reproducible ML Retraining Pipeline</h3>
+            <p class="project-desc">A structured FastAPI template featuring model retraining loops, test validation suites with Pytest, and versioned configuration management.</p>
+            <div class="project-tags">
+              <span class="project-tag">Uvicorn</span>
+              <span class="project-tag">Pytest</span>
+              <span class="project-tag">ML Retraining</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section class="section scroll-animate" id="education">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Education Timeline</h2>
+        <p class="section-subtitle">Academic foundations, algorithmic specializations, and certificates.</p>
+      </div>
+      
+      <div class="timeline">
+        <!-- Item 1 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">2023 - PRESENT</div>
+            <h3 class="timeline-title">B.E. in Information Technology</h3>
+            <div class="timeline-institution">MBM University</div>
+            <p class="timeline-desc">Acquiring foundational computer science training, system architecture, database design, and software engineering methodologies.</p>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">2024</div>
+            <h3 class="timeline-title">AI/ML Specialization</h3>
+            <div class="timeline-institution">IIT Patna</div>
+            <p class="timeline-desc">Intensive advanced coursework covering deep learning networks, regression models, classification structures, and predictive optimization.</p>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">2023</div>
+            <h3 class="timeline-title">C++ & Data Structures & Algorithms</h3>
+            <div class="timeline-institution">Coding Ninjas</div>
+            <p class="timeline-desc">Rigorous programming specialization targeting complexity analysis, lists, trees, graphs, sorting algorithms, and optimization paradigms.</p>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">GRADUATED 2020</div>
+            <h3 class="timeline-title">Senior Secondary Education</h3>
+            <div class="timeline-institution">CBSE Board</div>
+            <p class="timeline-desc">Core coursework in Physics, Chemistry, and Mathematics.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Connect & Stats Section -->
+  <section class="section scroll-animate" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Let's Connect</h2>
+        <p class="section-subtitle">Reach out for collaborations, project design, or machine learning consultation.</p>
+      </div>
+      
+      <div class="contact-grid">
+        <!-- Left: Stats Card & Channels -->
+        <div class="contact-info">
+          <!-- Dynamic GitHub Stats Card -->
+          <div class="stats-card-container">
+            <img src="https://github-readme-stats.vercel.app/api?username=Ashish8000&show_icons=true&theme=tokyonight" alt="Ashish Chauhan's GitHub Stats">
+          </div>
+          
+          <div class="contact-channels">
+            <a href="mailto:ashishchauhan.ac800@gmail.com" class="channel-btn">
+              <span class="channel-icon" style="color: #ea4335;"><i class="fa-solid fa-envelope"></i></span>
+              <div class="channel-details">
+                <span class="channel-label">Email</span>
+                <span class="channel-value">ashishchauhan.ac800@gmail.com</span>
+              </div>
+            </a>
+            
+            <a href="https://github.com/Ashish8000" target="_blank" class="channel-btn github">
+              <span class="channel-icon" style="color: #ffffff;"><i class="fa-brands fa-github"></i></span>
+              <div class="channel-details">
+                <span class="channel-label">GitHub</span>
+                <span class="channel-value">@Ashish8000</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right: Message Form -->
+        <div class="contact-form">
+          <form id="feedback-form" action="#" method="POST" onsubmit="event.preventDefault(); alert('Message simulation sent successfully!');">
+            <div class="form-group">
+              <label for="name" class="form-label">Full Name</label>
+              <input type="text" id="name" name="name" class="form-control" placeholder="John Doe" required>
+            </div>
+            <div class="form-group">
+              <label for="email" class="form-label">Email Address</label>
+              <input type="email" id="email" name="email" class="form-control" placeholder="john@example.com" required>
+            </div>
+            <div class="form-group">
+              <label for="message" class="form-label">Message</label>
+              <textarea id="message" name="message" class="form-control" placeholder="Hi Ashish, I'd love to connect with you regarding..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Ashish Chauhan. Designed with passion for AI/ML and scalability.</p>
+    </div>
+  </footer>
+
+  <!-- Script Files -->
+  <script src="main.js"></script>
+</body>
+</html>
